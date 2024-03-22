@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.greetings {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.greetings span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f39c12; /* Color amarillo */
+}
+
+.description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.description span {
+    font-size: 24px;
+    color: #333; /* Color gris oscuro */
+}
+
+.button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botones {
+    background-color: #f39c12; /* Color amarillo */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botones:hover {
+    background-color: #e67e22; /* Color naranja */
+}
+
+.botones a {
+    text-decoration: none;
+    color: white;
+}
+
